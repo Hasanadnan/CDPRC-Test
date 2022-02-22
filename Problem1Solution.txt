@@ -9,7 +9,7 @@ function uniqueFileCount(nameIds, files) {
         // console.log("after: "+ fileTypeArr)
 
     }
-    console.log(Total unique files type: ${fileTypeArr.length})
+    console.log(`Total unique files type: ${fileTypeArr.length}`)
 
     function isEmployee(nameOrId) {
         for(let i = 0; i < nameIds.length; i++) {
